@@ -66,6 +66,33 @@ function getRequirementsByCountry(country) {
             { text: 'Insurance Certificate', link: 'https://www.export.gov/article?id=Insurance-Certificate' }
 
         ],
+        'Italy': [
+
+            { text: 'Commercial Invoice', link: 'https://www.export.gov/article?id=Commercial-Invoice' },
+
+            { text: 'Packing List', link: 'https://www.export.gov/article?id=Packing-List' },
+
+            { text: 'Bill of Lading', link: 'https://www.export.gov/article?id=Bill-of-Lading' },
+
+            { text: 'Certificate of Origin', link: 'https://www.iccwbo.org/resources-for-business/certificates-of-origin/' },
+
+            { text: 'Customs Declaration', link: 'https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/how-to-import' },
+
+            { text: 'Compliance with Australian MEPS', link: 'https://www.energyrating.gov.au' },
+
+            { text: 'Energy Rating Label', link: 'https://www.energyrating.gov.au/document/guides-and-factsheets-2016-energy-rating-label' },
+
+            { text: 'Electrical Safety Certificate (AS/NZS 60335.2.40)', link: 'https://www.saiglobal.com' },
+
+            { text: 'EMC Compliance (AS/NZS CISPR 14.1)', link: 'https://www.saiglobal.com' },
+
+            { text: 'RCM Label', link: 'https://www.acma.gov.au' },
+
+            { text: 'Refrigerant Standards Compliance', link: 'https://www.arctick.org' },
+
+            { text: 'Insurance Certificate', link: 'https://www.export.gov/article?id=Insurance-Certificate' }
+
+        ],
 
         'Japan': [
 
