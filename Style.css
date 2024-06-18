@@ -1,5 +1,6 @@
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
@@ -69,7 +70,7 @@ a:hover {
 /* Styles for the company logo */
 img {
     width:400px; /* Adjust the size as needed */
-    height: 150px;
+    height: 200px;
     display: block;
     align-items:center;
     text-align:center;
@@ -83,8 +84,8 @@ img {
 h2 {
     text-align: center;
     margin-top: 10px; /* Add space between logo and company name */
-color:green;
-font-size:60px;
+    color: #085153;
+    font-size:55px;
 }
 #text-note {
     background-color: #ffffff;
