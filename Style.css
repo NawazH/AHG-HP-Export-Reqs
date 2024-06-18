@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+ 
+.container {
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+align-items:center;
+}
+ 
+h1 {
+    text-align: center;
+    color: #333;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+ 
+select {
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+ 
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #0056b3;
+}
+ 
+#requirements {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+ 
+a {
+    color: #007bff;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+ 
+/* Styles for the company logo */
+img {
+    width:400px; /* Adjust the size as needed */
+    height: 150px;
+    display: block;
+    align-items:center;
+text-align:center;
+
+ 
+ 
+    margin: 0 auto; /* Center the logo horizontally */
+}
+ 
+/* Styles for the company name */
+h2 {
+    text-align: center;
+    margin-top: 10px; /* Add space between logo and company name */
+color:green;
+font-size:60px;
+}
