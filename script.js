@@ -5,8 +5,10 @@ document.getElementById('exportForm').addEventListener('submit', function(e) {
     const country = document.getElementById('country').value;
 
     const requirementsDiv = document.getElementById('requirements');
+    const noteDiv = document.getElementById('text-note');
 
     requirementsDiv.innerHTML = '';
+    noteDiv.innerHTML='';
  
     if (country === '') {
 
@@ -29,6 +31,7 @@ document.getElementById('exportForm').addEventListener('submit', function(e) {
     requirementsList += '</ul>';
  
     requirementsDiv.innerHTML = requirementsList;
+    noteDiv.innerHTML = "Please Note: Some countries will have certifications that will be acceptable to meet australian standards.  Examples are ASME, AHRI, EN, Eurovent, Keymark, etc.  If you product has met these requirements, it most likely will meet Australian standards and requirements without providing any additional certification or documentation.  "
 
 });
  

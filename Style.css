@@ -72,7 +72,7 @@ img {
     height: 150px;
     display: block;
     align-items:center;
-text-align:center;
+    text-align:center;
 
  
  
@@ -86,3 +86,10 @@ h2 {
 color:green;
 font-size:60px;
 }
+#text-note {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    color: red;
+  }
